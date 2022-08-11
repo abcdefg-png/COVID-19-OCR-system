@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+    
+</head>
+<body>
+    <style>.box { justify-content:center; display:flex; flex-wrap:wrap;  }; </style>
+    <div class="box">
+                <div id="427e11e1166844e4ba882199b0273dfd" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_427e11e1166844e4ba882199b0273dfd = echarts.init(
+            document.getElementById('427e11e1166844e4ba882199b0273dfd'), 'white', {renderer: 'canvas'});
+        var option_427e11e1166844e4ba882199b0273dfd = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "\u8bc6\u522b\u6210\u529f",
+                    "value": 2
+                },
+                {
+                    "name": "\u672a\u63d0\u4ea4",
+                    "value": 56
+                },
+                {
+                    "name": "\u8bc6\u522b\u9519\u8bef",
+                    "value": 1
+                }
+            ],
+            "radius": [
+                "0%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}:{c}\u4eba {d}%"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u8bc6\u522b\u6210\u529f",
+                "\u672a\u63d0\u4ea4",
+                "\u8bc6\u522b\u9519\u8bef"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "20\u4fe1\u5b89\u63d0\u4ea4\u7ed3\u679c",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_427e11e1166844e4ba882199b0273dfd.setOption(option_427e11e1166844e4ba882199b0273dfd);
+    </script>
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="81db72b6c9ef431fa5e9550f35b306b6" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > 识别失败名单</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>学号</th>
+            <th>姓名</th>
+            <th>检测时间</th>
+            <th>检测结果</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>王念祖</td>
+            <td>E42014020</td>
+            <td>时间匹配失败</td>
+            <td>阴性</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>                        <style>
+            .fl-table {
+                margin: 20px;
+                border-radius: 5px;
+                font-size: 12px;
+                border: none;
+                border-collapse: collapse;
+                max-width: 100%;
+                white-space: nowrap;
+                word-break: keep-all;
+            }
+
+            .fl-table th {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .fl-table tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+            }
+
+            .fl-table tr:hover td {
+                background: #00d1b2;
+                color: #F8F8F8;
+            }
+
+            .fl-table td, .fl-table th {
+                border-style: none;
+                border-top: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-bottom: 3px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                padding: .5em .55em;
+                font-size: 15px;
+            }
+
+            .fl-table td {
+                border-style: none;
+                font-size: 15px;
+                vertical-align: center;
+                border-bottom: 1px solid #dbdbdb;
+                border-left: 1px solid #dbdbdb;
+                border-right: 1px solid #dbdbdb;
+                height: 30px;
+            }
+
+            .fl-table tr:nth-child(even) {
+                background: #F8F8F8;
+            }
+        </style>
+        <div id="6fd3aa73f4e4423cbfe7ba0474605fe0" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > 待提交（包含识别失败）名单</p>
+            <p class="subtitle" style="font-size: 12px;" > </p>
+            <table class="fl-table">
+    <thead>
+        <tr>
+            <th>学号</th>
+            <th>姓名</th>
+            <th>检测时间</th>
+            <th>检测结果</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>季云龙</td>
+            <td>B02014068</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>赵嘉怡</td>
+            <td>B02014118</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>杨宇海</td>
+            <td>B02014152</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>王海运</td>
+            <td>B52014072</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>宋晓萍</td>
+            <td>B52014101</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>青伟豪</td>
+            <td>C02014020</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>冀梦月</td>
+            <td>C02014123</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>张翔斐</td>
+            <td>C02014254</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>陈逸雯</td>
+            <td>C42014072</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>邓修文</td>
+            <td>E01914251</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>王菲</td>
+            <td>E42014002</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>刘文博</td>
+            <td>E42014003</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>孙宇飞</td>
+            <td>E42014004</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>何凡</td>
+            <td>E42014005</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>李一骁</td>
+            <td>E42014006</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>曾品典</td>
+            <td>E42014007</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>王博弘</td>
+            <td>E42014008</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>苏新越</td>
+            <td>E42014009</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>王皓亮</td>
+            <td>E42014010</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>冯思彦</td>
+            <td>E42014011</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>汪东茗</td>
+            <td>E42014012</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>彭兴锴</td>
+            <td>E42014013</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>陆加陈</td>
+            <td>E42014014</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>徐可</td>
+            <td>E42014015</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>贾婧文</td>
+            <td>E42014016</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>芮峻岩</td>
+            <td>E42014017</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>谢泽宇</td>
+            <td>E42014018</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>谢骏飞</td>
+            <td>E42014019</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>王念祖</td>
+            <td>E42014020</td>
+            <td>时间匹配失败</td>
+            <td>阴性</td>
+        </tr>
+        <tr>
+            <td>马云昊</td>
+            <td>E42014022</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>孟高溪源</td>
+            <td>E42014023</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>张兵昇</td>
+            <td>E42014024</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>俞旻蔚</td>
+            <td>E42014025</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>付鹏飞</td>
+            <td>E42014026</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>顾乐倩</td>
+            <td>E42014027</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>方友清</td>
+            <td>E42014028</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>孔维颖</td>
+            <td>E42014029</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>耿紫涵</td>
+            <td>E42014030</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>陶俊杰</td>
+            <td>E42014031</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>陈禹璇</td>
+            <td>E42014032</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>李长昊</td>
+            <td>E42014033</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>曹静逸</td>
+            <td>E42014035</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>王艺博</td>
+            <td>E42014036</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>李怡萱</td>
+            <td>E42014037</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>王俊寒</td>
+            <td>E42014038</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>杨浩然</td>
+            <td>E42014039</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>刘宇航</td>
+            <td>E42014040</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>沈子善</td>
+            <td>H02014033</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>田华丰</td>
+            <td>L01914084</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>王骏武</td>
+            <td>L02014002</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>陈佳宇</td>
+            <td>L02014005</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>曾繁约</td>
+            <td>M02014382</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>李洛玮</td>
+            <td>P02014007</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>黎选</td>
+            <td>X02014153</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>徐英博</td>
+            <td>X02014157</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>晏国栋</td>
+            <td>X02014167</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>韦西洋</td>
+            <td>Y02014163</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+
+<br/>    </div>
+    <script>
+    </script>
+</body>
+</html>
