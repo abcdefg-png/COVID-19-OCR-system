@@ -1,7 +1,7 @@
 <?php
 header("Content-type: text/html; charset=utf-8");
-$userName='homework';
-$passWord='yt6871654';
+$userName='';
+$passWord='';
 $host='localhost';
 $dataBase='homework';
 $tbname='data1';
